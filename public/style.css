@@ -1,0 +1,71 @@
+/*
+Etiquetas HTML: p, h1, body, etc
+Clases: <p class = "miClase"> .miclase
+IDs: <p id = miID> #miID
+
+Medidas: 
+px: pixel
+ps: puntos, imprimir en el cual 72 puntos == 1 pulgada
+em: ems, == tamaño de la letra actual
+%: porcentaje: tamaño de la letra actual es el 100%
+
+Content --> Padding --> Border --> Margin
+
+Propiedades:
+font, color, border, margin, padding, background, display, float, :hover
+
+En bootstrap se trabaja con breakpoints
+
+<div class="container">
+    <div class="row">
+        <div class="col">col1</div>
+*/
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(77, 187, 255, 0.8);          /* color al pasar el mouse */
+    transform: scale(1.05);  /* pequeño zoom */
+}
+
+h1 {
+    color: rgba(35, 103, 146, 0.8);
+    margin-bottom: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.forms {
+    margin-bottom:10px;
+    padding: 5px;
+}
+
+.form-eti {
+    color:rgba(13, 36, 50, 0.8);
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.form-get {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #7ca1d4c1;
+    background-color: rgba(149, 212, 251, 0.41);
+    color: rgb(50, 101, 138);
+}
+
+.button-submit {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ccdcf1cb;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    background-color: #7ca1d4c1;
+    transform: translateY(-2px);
+}

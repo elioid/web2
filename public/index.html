@@ -1,0 +1,32 @@
+<!--
+Crea un archivo index.html principal agrega un formulario para crear una página de login con username y password.
+Crea otro archivo tags.html donde utilices diferentes etiquetas HTML.
+Crea un archivo profile.html donde crees una pagina de perfil, agrega tus datos y una foto.
+Agrega links en cada archivo html para tener navegación entre las diferentes paginas.
+Como opcional puedes crear más archivos HTML y añadir más imágenes.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Log In</title>
+    </head>
+    <body>
+        <h1>Bienvenido!</h1>
+        <form action="home.html" method="get">
+            <div class = "forms">
+                <label for="email" class = "form-eti">Email:</label>
+                <input type="email" id="email" name="email" class="form-get"><br><br>
+            </div>
+            <div class = "forms">
+                <label for="pwd" class = "form-eti">Password:</label>
+                <input type="password" id="pwd" name="pwd" class="form-get"><br><br>
+            </div>
+            <button type="submit" class="button-submit">Submit</button>
+        </form>
+        <script src="./index.js"></script>
+    </body>
+</html>
